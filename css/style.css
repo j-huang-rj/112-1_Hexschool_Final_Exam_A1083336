@@ -1,4 +1,111 @@
-.box {
-    height: 150px;
-    background: blue;
+.logo {
+    display: block;
+    width: 128px;
+    height: 38px;
+    background: url('../img/d’Perfume.png');
+}
+
+.productList {
+    height: 52px;
+    background: #916000;
+    margin-bottom: 80px;
+}
+
+@media(max-width: 576px) {
+    .productList {
+        display: none;
+    }
+}
+
+.productList ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.productList li a {
+    display: block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 12px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+@media(max-width: 768px) {
+    .productList li a {
+        font-size: 16px;
+    }
+}
+
+.productList li a:hover {
+    color: lightgrey;
+}
+
+.productShot-1 {
+    height: 540px;
+    margin-bottom: 30px;
+}
+
+.productShot-2 {
+    height: 750px;
+    margin-bottom: 30px;
+}
+
+.productInfo h2 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.productInfo p.desc {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 32px;
+}
+
+.addToCartBtn {
+    background: #916000;
+    color: white;
+    padding: 14px 55px;
+}
+
+a.collectBtn {
+    margin-top: 8px;
+    margin-bottom: 80px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 1.5;
+    font-weight: bold;
+
+}
+
+.info-title {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.info-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer {
+    height: 80px;
+    background: #916000;
+    margin-top: 60px;
+}
+
+.footer li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.footer li a{
+    color: white;
+    text-decoration: none;
 }
